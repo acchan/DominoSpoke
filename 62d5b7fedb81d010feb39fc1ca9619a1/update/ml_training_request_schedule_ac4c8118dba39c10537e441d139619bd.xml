@@ -2,11 +2,15 @@
     <ml_training_request_schedule action="INSERT_OR_UPDATE">
         <active>true</active>
         <business_calendar/>
+        <capability/>
         <condition/>
         <conditional>false</conditional>
         <entered_time/>
         <ml_capability_definition display_value="Demand Insights: Incident Clusters Need Knowledge">e85b83b673d40010f84de1d28bf6a77d</ml_capability_definition>
+        <ml_solution/>
         <name>Demand Insights: Incident Clusters Need Knowledge</name>
+        <offset/>
+        <offset_type/>
         <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
         <run_as_tz/>
         <run_dayofmonth>1</run_dayofmonth>

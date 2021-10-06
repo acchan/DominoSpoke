@@ -2,11 +2,13 @@
     <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
+        <action_status/>
         <action_template/>
         <active>true</active>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category display_value="Database">b10b33f6dbc1d010feb39fc1ca961995</category>
+        <compiler_build/>
         <copied_from/>
         <copied_from_name/>
         <description>Read a list of databases.</description>
@@ -81,6 +83,7 @@
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Database List">72d6f772dbc1d010feb39fc1ca96195a</action>
         <cid>26d19a2a-6792-4f25-97b5-e3c9f53cd23e</cid>
+        <error_handling_type/>
         <extended_inputs/>
         <extended_outputs/>
         <icon/>
@@ -111,7 +114,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-01 07:27:38</sys_updated_on>
         <value/>
-        <variable display_value="">c346f4d7c7312300a150effeeb976366</variable>
+        <variable display_value="API Source">c346f4d7c7312300a150effeeb976366</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -125,7 +128,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-01 07:27:39</sys_updated_on>
         <value/>
-        <variable display_value="">3c4d7367c7d32300a150effeeb9763a4</variable>
+        <variable display_value="REST Metadata">3c4d7367c7d32300a150effeeb9763a4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -139,7 +142,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-01 07:27:38</sys_updated_on>
         <value>{"type":"ADV_NV","value":[]}</value>
-        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -153,7 +156,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-01 07:18:49</sys_updated_on>
         <value>/api/data</value>
-        <variable display_value="">3d090af03b23320057a4a2e334efc455</variable>
+        <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -167,7 +170,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-01 07:35:03</sys_updated_on>
         <value>http://ndv10.lotuslab.com</value>
-        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -181,7 +184,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-01 07:18:49</sys_updated_on>
         <value>{"type":"ADV_NV","value":[]}</value>
-        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -195,7 +198,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-01 07:24:41</sys_updated_on>
         <value>040833f2dbc1d010feb39fc1ca9619f4</value>
-        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
+        <variable display_value="Connection Alias">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -209,7 +212,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-01 07:18:49</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -223,7 +226,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-01 07:24:41</sys_updated_on>
         <value>ef751ff07301330025d71afe2ff6a7f9</value>
-        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
+        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -237,7 +240,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-01 07:27:38</sys_updated_on>
         <value/>
-        <variable display_value="">29c75782c7822300a150effeeb976338</variable>
+        <variable display_value="API Operation">29c75782c7822300a150effeeb976338</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -251,7 +254,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-01 07:18:49</sys_updated_on>
         <value>18409d8007482000dada43c0d1021e8f</value>
-        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -265,8 +268,10 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-01 07:27:38</sys_updated_on>
         <value>manually</value>
-        <variable display_value="">bb61fcd3c7312300a150effeeb97638e</variable>
+        <variable display_value="Build Request">bb61fcd3c7312300a150effeeb97638e</variable>
     </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_7de7b7b2dbc1d010feb39fc1ca961957^id=7de7b7b2dbc1d010feb39fc1ca961957"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129^id=7de7b7b2dbc1d010feb39fc1ca961957"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=7de7b7b2dbc1d010feb39fc1ca961957^sys_idNOT IN6a19f736dbc1d010feb39fc1ca96191e"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -516,278 +521,6 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
-    <sys_hub_step_instance action="delete_multiple" query="action=72d6f772dbc1d010feb39fc1ca96195a^sys_idNOT IN7de7b7b2dbc1d010feb39fc1ca961957"/>
-    <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Database List">72d6f772dbc1d010feb39fc1ca96195a</action>
-        <cid>26d19a2a-6792-4f25-97b5-e3c9f53cd23e</cid>
-        <extended_inputs/>
-        <extended_outputs/>
-        <icon/>
-        <inputs/>
-        <label>REST step</label>
-        <order>1</order>
-        <outputs/>
-        <section/>
-        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-06-01 07:18:48</sys_created_on>
-        <sys_id>7de7b7b2dbc1d010feb39fc1ca961957</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_scope display_value="HCL Domino Spoke">62d5b7fedb81d010feb39fc1ca9619a1</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-01 07:35:03</sys_updated_on>
-    </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=7de7b7b2dbc1d010feb39fc1ca961957"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>7de7b7b2dbc1d010feb39fc1ca961957</document_key>
-        <order>15</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-06-01 07:18:49</sys_created_on>
-        <sys_id>02e77fb2dbc1d010feb39fc1ca9619d8</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-01 07:27:38</sys_updated_on>
-        <value/>
-        <variable display_value="">c346f4d7c7312300a150effeeb976366</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>7de7b7b2dbc1d010feb39fc1ca961957</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-06-01 07:18:50</sys_created_on>
-        <sys_id>02e77fb2dbc1d010feb39fc1ca9619da</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-01 07:27:39</sys_updated_on>
-        <value/>
-        <variable display_value="">3c4d7367c7d32300a150effeeb9763a4</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>7de7b7b2dbc1d010feb39fc1ca961957</document_key>
-        <order>30</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-06-01 07:18:49</sys_created_on>
-        <sys_id>06e77fb2dbc1d010feb39fc1ca9619d9</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-01 07:27:38</sys_updated_on>
-        <value>{"type":"ADV_NV","value":[]}</value>
-        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>7de7b7b2dbc1d010feb39fc1ca961957</document_key>
-        <order>20</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-06-01 07:18:49</sys_created_on>
-        <sys_id>42e77fb2dbc1d010feb39fc1ca9619d9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-01 07:18:49</sys_updated_on>
-        <value>/api/data</value>
-        <variable display_value="">3d090af03b23320057a4a2e334efc455</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>7de7b7b2dbc1d010feb39fc1ca961957</document_key>
-        <order>15</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-06-01 07:24:41</sys_created_on>
-        <sys_id>4849bb36dbc1d010feb39fc1ca96195e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-01 07:35:03</sys_updated_on>
-        <value>http://ndv10.lotuslab.com</value>
-        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>7de7b7b2dbc1d010feb39fc1ca961957</document_key>
-        <order>25</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-06-01 07:18:49</sys_created_on>
-        <sys_id>4ee77fb2dbc1d010feb39fc1ca9619d9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-01 07:18:49</sys_updated_on>
-        <value>{"type":"ADV_NV","value":[]}</value>
-        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>7de7b7b2dbc1d010feb39fc1ca961957</document_key>
-        <order>10</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-06-01 07:24:41</sys_created_on>
-        <sys_id>8449bb36dbc1d010feb39fc1ca96195e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-01 07:24:41</sys_updated_on>
-        <value>040833f2dbc1d010feb39fc1ca9619f4</value>
-        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>7de7b7b2dbc1d010feb39fc1ca961957</document_key>
-        <order>12</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-06-01 07:18:49</sys_created_on>
-        <sys_id>8ae77fb2dbc1d010feb39fc1ca9619d9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-01 07:18:49</sys_updated_on>
-        <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>7de7b7b2dbc1d010feb39fc1ca961957</document_key>
-        <order>400</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-06-01 07:24:41</sys_created_on>
-        <sys_id>8c49bb36dbc1d010feb39fc1ca96195d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-01 07:24:41</sys_updated_on>
-        <value>ef751ff07301330025d71afe2ff6a7f9</value>
-        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>7de7b7b2dbc1d010feb39fc1ca961957</document_key>
-        <order>16</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-06-01 07:18:49</sys_created_on>
-        <sys_id>8ee77fb2dbc1d010feb39fc1ca9619d8</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-01 07:27:38</sys_updated_on>
-        <value/>
-        <variable display_value="">29c75782c7822300a150effeeb976338</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>7de7b7b2dbc1d010feb39fc1ca961957</document_key>
-        <order>13</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-06-01 07:18:49</sys_created_on>
-        <sys_id>c6e77fb2dbc1d010feb39fc1ca9619d9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-01 07:18:49</sys_updated_on>
-        <value>18409d8007482000dada43c0d1021e8f</value>
-        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>7de7b7b2dbc1d010feb39fc1ca961957</document_key>
-        <order>10</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-06-01 07:18:49</sys_created_on>
-        <sys_id>cae77fb2dbc1d010feb39fc1ca9619d8</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-01 07:27:38</sys_updated_on>
-        <value>manually</value>
-        <variable display_value="">bb61fcd3c7312300a150effeeb97638e</variable>
-    </sys_variable_value>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=7de7b7b2dbc1d010feb39fc1ca961957^sys_idNOT IN6a19f736dbc1d010feb39fc1ca96191e"/>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=885c1022-26fd-4e88-b38e-e97a4bfe6739</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>sn_auth_token</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="">password2</internal_type>
-        <label>Credential Value</label>
-        <mandatory>false</mandatory>
-        <max_length>255</max_length>
-        <model display_value="REST step">7de7b7b2dbc1d010feb39fc1ca961957</model>
-        <model_id>7de7b7b2dbc1d010feb39fc1ca961957</model_id>
-        <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_output_7de7b7b2dbc1d010feb39fc1ca961957</name>
-        <next_element/>
-        <order>7</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-06-01 07:24:02</sys_created_on>
-        <sys_id>6a19f736dbc1d010feb39fc1ca96191e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="HCL Domino Spoke">62d5b7fedb81d010feb39fc1ca9619a1</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-01 07:27:09</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_step_ext_output>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_72d6f772dbc1d010feb39fc1ca96195a^sys_idNOT IN9bfbb73adbc1d010feb39fc1ca961931,c7fbb73adbc1d010feb39fc1ca96192b"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>result</element>
@@ -802,11 +535,11 @@
         <sys_created_on>2020-06-01 07:36:39</sys_created_on>
         <sys_id>9bfbb73adbc1d010feb39fc1ca961931</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Result</sys_name>
         <sys_package display_value="HCL Domino Spoke" source="x_snc_dominospoke">62d5b7fedb81d010feb39fc1ca9619a1</sys_package>
         <sys_policy/>
         <sys_scope display_value="HCL Domino Spoke">62d5b7fedb81d010feb39fc1ca9619a1</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_72d6f772dbc1d010feb39fc1ca96195a_result_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-01 07:36:39</sys_updated_on>
         <url/>
@@ -825,11 +558,11 @@
         <sys_created_on>2020-06-01 07:36:39</sys_created_on>
         <sys_id>c7fbb73adbc1d010feb39fc1ca96192b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Status Code</sys_name>
         <sys_package display_value="HCL Domino Spoke" source="x_snc_dominospoke">62d5b7fedb81d010feb39fc1ca9619a1</sys_package>
         <sys_policy/>
         <sys_scope display_value="HCL Domino Spoke">62d5b7fedb81d010feb39fc1ca9619a1</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_72d6f772dbc1d010feb39fc1ca96195a_status_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-01 07:36:39</sys_updated_on>
         <url/>
